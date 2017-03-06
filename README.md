@@ -47,6 +47,12 @@ current socket/select/ssl emulation, which also layers on Netty.
 It should be possible for MyPy to typecheck Jython code, including the
 use of imported Java types.
 
+# Support invokedynamic
+
+With [`jdk.dynalink`](http://openjdk.java.net/jeps/276) coming to jdk9, this will simplify the bytecode a lot. 
+
+See also: https://github.com/szegedi/dynalink/wiki/User-Guide-0.7
+
 # Other ideas for Jython 3?
 
 Please add them here by submitting a PR.
